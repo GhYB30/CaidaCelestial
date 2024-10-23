@@ -12,7 +12,7 @@ descripción de la temática: "Se trata de un juego cooperativo para dos jugador
 
 ### *Diseño y Desarrollo de Videojuegos (Quintana 2024-2025) Juegos en Red* 
 
-**Integrantes** 
+**Integrantes: ** 
 
 *Irene Rodríguez García*
 
