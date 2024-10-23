@@ -15,8 +15,11 @@ descripción de la temática: "Se trata de un juego cooperativo para dos jugador
 **Integrantes** 
 
 *Irene Rodríguez García*
+
 *Miriam Sanz Tardón*
+
 *Cristina Valero Abella* 
+
 *Rosa Ghaudy Bellido Euribe* 
 
 ![](CONCEPTS/McAcos.png)
