@@ -254,7 +254,7 @@ En cuanto al mundo observable dentro del juego, este se divide en tres zonas o e
 
 El primer escenario que se podrá ver y donde se comenzará el juego es el subsuelo, siendo el lugar más oscuro y fúnebre de todos. Este lugar es un sitio vacío y solitario donde se encontrará inicialmente Cassadie y al cual caerá después Seraphina. Este primer escenario simboliza la decadencia y  el punto  más bajo  al que  puede caer  un ser  a causa  de una  determinada circunstancia y donde habrá un punto de inflexión en el desarrollo del personaje debido a la desesperación. 
 
-![](CONCEPTS/FINALES/Subterráneo.png)
+![](CONCEPTS/FINALES/Subterraneo.png)
 
 *Img. Fondo final subsuelo* 
 
