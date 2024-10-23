@@ -72,7 +72,7 @@ descripción de la temática: "Se trata de un juego cooperativo para dos jugador
 
 ## ***1. Introducción*** 
 
-Se presenta el documento de desarrollo del videojuego Caída Celestial: el desafío de los exiliados. Este GDD forma parte de la Fase 2 (Equipo de Desarrollo y Temática del Juego) de la práctica de la asignatura de Juegos en Red.
+Se presenta el documento de desarrollo del videojuego Caída Celestial: el desafío de los exiliados. Este GDD forma parte de la Fase 1 de la práctica de la asignatura de Juegos en Red.
 
 El objetivo de la anterior fase era formar el equipo de desarrollo, elegir la temática del juego e identificar sus funcionalidades y mecánicas principales, en esta nueva fase se pide implementarlo en javascript con el framework de Phaser 3 y que los jugadores puedan jugar por via local únicamente. Esta fase será la base para la siguiente fase.
 
@@ -515,7 +515,7 @@ Se había diseñado que tanto ambos personajes principales, como la figura de Di
 
 El videojuego contará con una serie de efectos de sonido  con el objetivo de aumentar la inmersión de los jugadores en el mundo lúdico. 
 
-Los  efectos  de  sonido pensados para el diseño eran:  Al  saltar,  al  abrir  una  puerta,  al  activar  un mecanismo, al caer un objeto o interactuar con algún elemento. Para la entrega de la fase 2 no ha sido posible la realización de esta idea, sin embargo al final en el desarrollo, se han método sonidos de golpe que son aleatorios cuando luchan contra los tentáculos.
+Los  efectos  de  sonido pensados para el diseño eran:  Al  saltar,  al  abrir  una  puerta,  al  activar  un mecanismo, al caer un objeto o interactuar con algún elemento.
 
 ## ***6 Bibliografía*** 
 
