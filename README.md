@@ -10,7 +10,7 @@ descripción de la temática: "Se trata de un juego cooperativo para dos jugador
 # Caída Celestial: El Desafío de los Exiliados
 ## Documento de diseño  
 
-### *Diseño y Desarrollo de Videojuegos (Quintana 2023-2024) Juegos en Red* 
+### *Diseño y Desarrollo de Videojuegos (Quintana 2024-2025) Juegos en Red* 
 
 **Integrantes** 
 
