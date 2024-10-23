@@ -497,7 +497,7 @@ Estos finales dependen de si en la puerta del nivel del cielo esta solo un jugad
 
 6. ***Créditos*** 
 
-En los créditos se expondrá los participantes del proyecto junto a la empresa y una vez acabado se volverá al menú principal por si quiere crear una nueva partida o finalizar la experiencia.*** 
+En los créditos se expondrá los participantes del proyecto junto a la empresa y una vez acabado se volverá al menú principal por si quiere crear una nueva partida o finalizar la experiencia. 
 
 ## ***5 Audio*** 
 
