@@ -128,7 +128,7 @@ A continuación se presenta la historia del videojuego y todos sus finales alter
 
 1. ***Historia Principal*** 
 
-***(Guion de la historia sujeta a futuros posibles cambios)*** 
+***Guion y lore de la historia*** 
 
 El subsuelo, un lugar temido por los ángeles, guardianes de Dios, debido a su esencia oscura y a los rumores que corren sobre que es un lugar gobernado por el mal. Durante muchos años hubo un solo habitante en este lugar, Cassadie, el cual, a pesar de las fuertes alucinaciones y torturas a las que le sometía el dios de mal pudo mantener una pizca de bondad y del bien en su corazón para no caer del todo al infierno y perderse completamente a sí mismo. Se puede observar el fruto de las acciones del dios del mal en el aspecto del pequeño ángel caído y también en su mentalidad y forma de comportarse.  
 
@@ -412,17 +412,9 @@ El juego contendrá una serie de “menús” los cuales le permitirán al jugad
 
 A continuación, se explicará en qué consiste el diagrama de flujo de las interfaces. Un diagrama de flujo de una interfaz, a menudo denominado diagrama de  flujo de  usuario, es  una representación gráfica  que muestra  cómo un  usuario interactúa  con una  interfaz del juego/software.*** 
 
-
-![](CONCEPTS/FINALES/DiagramaDeClasesFinal.png)
-
-*Img. Diagrama de flujo*
-
-Una vez se abre el ejecutable se encuentra en el menú principal o pantalla de menú principal en la cual aparecerán  los siguientes botones: Jugar, Registrarse e Iniciar Sesión. Si se selecciona la opción de Jugar se llevará al jugadora otro menú con cuatro botones: Jugar, Ajustes,Salir y Puntuaciones. Si se ha pulsado salir la página se cierra, si se ha pulsado ajustes aparecerá una barra para ajustar el volumen, en puntuaciones aparece una lista de las tres mejores puntuaciones y nombres de usuario de los jugadores que tienen una cuenta creada. Por último, si se ha pulsado Jugar se puede seleccionar entre el juego o el tutorial. En jugar presenta dos botones debido a que así si los jugadores ya han jugado anteriormente/y o saben las mecánicas pues que no tengan que ver de nuevo la presentación larga explicativa e ir directamente a la pantalla de juego. 
+Dentro de la pantalla inicial se selecciona la opción de Jugar se llevará al jugadora otro menú con tres botones: Jugar, Ajustes y Salir. Si se ha pulsado salir la página se cierra, si se ha pulsado ajustes aparecerá una barra para ajustar el volumen, por último, si se ha pulsado Jugar se puede seleccionar entre el juego o el tutorial. En jugar presenta dos botones debido a que así si los jugadores ya han jugado anteriormente/y o saben las mecánicas pues que no tengan que ver de nuevo la presentación larga explicativa e ir directamente a la pantalla de juego. 
 
 Si se ha pulsado el botón de tutorial esto llevará a una secuencia explicativa de como moverse, manejarse e interactuar con el entorno, una vez acaba dicha explicación llevará a la pantalla de juego en la cual consta de una pequeña historia y al pulsar 'enter' se pasará a los tres niveles.  Los niveles son tres, el primero es el subtsubterráneo/suelo el cual presenta unos tentáculos enemigos que si las dos se quedan atascadas entonces se reinicia el nivel. Una vez acabado el nivel del subsuelo, se pasa al del bosque y luego al del cielo. En cualquier momento pulsando la p se puede ir a la pantalla de ajustes y de ella se puede volver a la escena de juego. Dependiendo de si han llegado las dos o solo una saldrá un final u otro. 
-
-Los botones de registrase e iniciar sesión permiten a los jugadores crearse una cuenta y acceder a ella respectivamente. Aunque no es necesario tener una cuenta para poder jugar, iniciar sesión permite guadar la máxima puntuación del jugador y mostrarla en el menú de puntuaciones si se encuentra entre las tres mejores. Además es posible cambiar la contraseña de la cuenta e incluso borrala por completo si se accede al menú de ajustes de la cuenta después de iniciar sesión.
-
 
 ![](CONCEPTS/Concept_Boton_Continuar.png)
 
@@ -436,14 +428,9 @@ El menú principal consta del título del juego que ocupe un tamaño razonable p
 
 *Img. Esquema del menú principal*
 
-La pantalla que visualizamos al abrir el ejecutable contiene los botones de Jugar, Iniciar Sesión y Registrarse.
-![](CONCEPTS/FINALES/MenuPrincipalimgFinal.png)
+El menú principal consta del título con un fondo de las puertas las cuales son el objetivo final del juego. En el centro se pueden ver cuatro botones que son Jugar, Ajustes, y Salir. Al pulsar Salir se cierra el ejecutable, el botón de Ajustes lleva a la pantalla de ajustes, Puntuaciones lleva a la pantalla con los records y Jugar a la selección de juego o tutorial.
 
-*Img. Menú principal *
-
-El menú principal consta del título con un fondo de las puertas las cuales son el objetivo final del juego. En el centro se pueden ver cuatro botones que son Jugar, Ajustes, Puntuaciones y Salir. Al pulsar Salir se cierra el ejecutable, el botón de Ajustes lleva a la pantalla de ajustes, Puntuaciones lleva a la pantalla con los records y Jugar a la selección de juego o tutorial.
-
-![](CONCEPTS/FINALES/MenuPrincipalFinal2.png)
+![](CONCEPTS/FINALES/MenuPrincipal.PNG)
 
 *Img. Menú principal 2*
 
@@ -455,32 +442,7 @@ Se puede acceder a través del menú principal o mientras se está jugando, el m
 
 *Img. Menú de ajustes*
 
-4. ***Pantalla De Puntuaciones***
-   
-En la pantalla de puntuaciones aparece una lista de las tres mejores puntuaciones junto a los nombres de usuario de los jugadores que las han obtenido. Es necesario tener una cuenta e iniciar sesión para poder obtener una puntuación y que esta sea registrada en dicha pantalla.
-
-![](CONCEPTS/FINALES/PantallaPuntuaciones.png)
-
-*Img. Pantalla Puntuaciones*
-
-5. ***Iniciar Sesión y Registrarse***
-
-Las pantallas para Iniciar Sesión y Registrarse explicadas anteriromente son las siguientes:
-
-![](CONCEPTS/FINALES/IniciarSesionImg.png)
-
-*Img. Pantalla Iniciar Sesión *
-
-![](CONCEPTS/FINALES/RegistrarseImg.png)
-
-*Img. Pantalla Registrarse *
-
-Una vez iniciada la sesión se pueden acceder a los ajustes de cuenta para cambiar la contraseña y borrar la cuenta
-![](CONCEPTS/FINALES/AjustesCuentaImg.png)
-
-*Img. Pantalla Ajustes Cuenta *
-   
-6. ***Pantalla del tutorial & juego*** 
+4. ***Pantalla del tutorial & juego*** 
 
 Para que el jugador no tenga que volver a pasar por las distintas explicaciones que se otorgan al principio se han implementado dos botones extras. El cual uno te lleva directamente al juego donde se encuentra los tres niveles solamente con una breve explicación de historia. El otro llevara a una secuencia de explicaciones de mecánicas de cómo usar los personajes, interactuar con el entorno y con el otro jugador para diversas amenazas.
 
@@ -488,7 +450,7 @@ Para que el jugador no tenga que volver a pasar por las distintas explicaciones 
 
 *Img. Elección de Jugar o tutorial*
 
-6.1 **Pantalla del tutorial** 
+4.1 **Pantalla del tutorial** 
 
 En cuanto al tutorial, presenta una serie de imágenes explicativas sobre como mover al personaje, instrucciones sobre enemigos y objetos, además de los objetivos. En la imagen presenta instrucciones iconográficas de cómo manejarse por el juego, las cuales se pueden pasar pulsando el botón de siguiente en el inferior centrar de la pantalla. Una vez pasada la presentación comienza la pantalla de juego.
 
@@ -496,7 +458,7 @@ En cuanto al tutorial, presenta una serie de imágenes explicativas sobre como m
 
 *Img. Tutorial*
 
-6.2 **Pantalla de juego** 
+4.2 **Pantalla de juego** 
 
 En este menú cuenta “el juego en sí”, se refiere a la interfaz gráfica que se muestra en el monitor cuando una persona está jugando un videojuego, la pantalla de juego es la ventana a la acción y la experiencia del juego. Es la ventana a la experiencia interactiva que ofrece el videojuego. 
 
@@ -557,161 +519,3 @@ Los  efectos  de  sonido pensados para el diseño eran:  Al  saltar,  al  abrir 
 Todos los recursos empleados han sido creación del equipo desarrollador; no se han utilizado assets ni concepts externos, excepto la página 'splice' para los sonidos.
 https://splice.com/features/sounds-2?utm_source=google&utm_medium=cpc&utm_campaign=row-en_multi_gs_ua_sounds_20231103_brand_trials_plans_blueprint&utm_content=row-en_multi_gs_kw_brand-splice_x_x_x_exact&utm_term=splice&campaignid=20747631547&adgroupid=162107982384&adid=679553326927&gad_source=1&gclid=Cj0KCQiAyeWrBhDDARIsAGP1mWSgoAmf46-7wZWo9OWvWeey4dPKvrTzT7ntIl5bqRxKRsBH9FQ6yVkaAnSkEALw_wcB
 
-
-## API REST
-
-Se ha implementado en 4 días una arquitectura cliente-servidor usando API REST (Representational State Transfer) es un conjunto de reglas y convenciones para construir servicios web que permiten la comunicación entre sistemas a través del protocolo HTTP. Las API REST son ampliamente utilizadas para integrar sistemas, ya que proporcionan una forma estándar y flexible para que diferentes aplicaciones y servicios se comuniquen entre sí. Permiten que los desarrolladores creen aplicaciones que consuman datos o servicios de otras plataformas o sistemas, lo que fomenta la interoperabilidad y la reutilización de recursos.
-
-![](CONCEPTS/APIRESTIMAGEN.png)
-
-Dadas las limitaciones temporales y la necesidad de realizar una investigación detallada sobre la teoría, los dos primeros días se han destinado a una exhaustiva búsqueda de información, permitiendo así obtener una visión general y abordar progresivamente las dudas específicas. En este contexto, se han identificado tres objetivos principales a alcanzar: la creación de un sistema para el intercambio de información entre clientes, la persistencia de datos mediante una API REST encargada de gestionar la autenticación, registro y consultas de información de usuarios conectados, complementada con tecnologías de tiempo real como WebSocket para facilitar el intercambio inmediato de mensajes entre clientes, y la capacidad de almacenar datos en una base de datos o archivos, garantizando así la preservación de información relevante, como por ejemplo las credenciales de los usuarios. Este enfoque permitirá al servidor conocer los clientes conectados, proporcionar funcionalidades de chat y mantener los datos disponibles incluso tras reiniciar el servidor.
-
-Como resultado de estas consideraciones, se ha desarrollado una interfaz que requiere que el cliente o usuario inicie sesión antes de acceder al juego; en caso de no tener una sesión iniciada, se le denegará el acceso al mismo. Esta interfaz presenta tres botones principales: "Iniciar sesión", "Registrarse", "Cambiar contraseña" y "Eliminar usuario". Para acceder a esta pantalla inicial, se debe activar el botón de inicio. Asimismo, se ha contemplado la incorporación de un sistema de puntuación basado en el feedback proporcionado por los profesores. Esta puntuación se conforma de un contador que, transcurridos 5 minutos sin completar el juego, resulta en una situación de "game over". En caso de finalizar el juego dentro del tiempo establecido, la puntuación se determinará por el tiempo empleado, reflejándose mediante una solicitud de tipo POST en una base de datos aparte destinada a las puntuaciones. Adjunto se presenta el diagrama de clases, el cual contribuye a la comprensión y visualización de estos procesos y métodos.
-
-![](CONCEPTS/FINALES/DiagramadeclasesAPIREST.png)
-
-*Img. Diagrama de Clases API REST*
-
-
-1. **User**
-
-La clase User en el paquete com.caidacelestial.entity se presenta como una entidad destinada a representar y almacenar información de usuarios dentro de un sistema. Implementa la interfaz Serializable, lo que indica su capacidad para ser convertida en una secuencia de bytes, permitiendo su almacenamiento o transferencia a través de la red. Dentro de la estructura de la clase, se definen cuatro atributos principales: id, username password y record. El atributo id representa un identificador único para cada usuario y se utiliza para diferenciarlos en la base de datos o en el contexto de persistencia. Este identificador se encuentra de tipo primitivo long.
-
-Los atributos username y password almacenan respectivamente el nombre de usuario y la contraseña asociados a cada instancia de la clase User. Ambos atributos se encuentran de tipo String, lo que permite almacenar cadenas de caracteres representativas de los datos de acceso del usuario. Por otra parte, record permite almacenar la máxima puntuación de cada usuario.
-La clase incluye métodos accesores y modificadores (getters y setters) para interactuar con estos atributos de manera controlada. Los métodos getUsername, getPassword, getId y getRecord permiten acceder a los valores de los atributos, mientras que los métodos setPassword, setUsername, setId y setRecord posibilitan establecer nuevos valores para estos atributos, aplicando lógica y restricciones si es necesario. La anotación Entity indica que esta clase es una entidad persistente, es decir, que puede ser almacenada en una base de datos. Las anotaciones Id y GeneratedValue se utilizan para marcar el atributo id como la clave primaria de la entidad y para especificar que su valor será generado automáticamente por la base de datos según la estrategia definida por GenerationType. Por último, la anotación EmbeddedId está presente pero no se utiliza en esta implementación, lo que podría indicar un fragmento de código que fue desechado o que fue parte de una versión anterior y ya no es relevante en el contexto actual.
-
-2. **UserHashMap**
-
-La clase UsersHashMap en el paquete com.caidacelestial.entity representa una implementación básica y simplificada de cómo utilizar la clase HashMap en Java para almacenar y manipular pares de clave-valor. En el método main, se crea una instancia de HashMap llamada hash. Luego, se realizan algunas operaciones sobre esta instancia:
-- hash.put(null, null); intenta agregar un par de valores nulos al HashMap. En Java, un HashMap permite una sola clave nula y múltiples valores nulos, por lo que agregar un par de valores nulos no generará errores en este contexto.
-- hash.remove("Pepe"); intenta eliminar la entrada asociada con la clave "Pepe" del HashMap, si existe.
-- hash.containsKey("Pepe"); verifica si el HashMap contiene una clave "Pepe", pero en este caso no tendrá éxito, ya que anteriormente se eliminó dicha clave.
-Posteriormente, se itera sobre las claves del HashMap utilizando un bucle for-each. Por cada clave (indice) en el conjunto de claves (hash.keySet()), se imprime el valor asociado a esa clave utilizando hash.get(indice).
-
-3. **HomeController**
-
-La clase HomeController en el paquete com.caidacelestial.controller representa un controlador dentro de una aplicación web basada en Spring. Está encargada de gestionar las operaciones relacionadas con los usuarios en un sistema, siguiendo las convenciones RESTful para la manipulación de recursos. En su configuración, esta clase se anota con @RestController, lo que indica que cada uno de sus métodos maneja las solicitudes HTTP y devuelve los resultados directamente como respuestas HTTP. El mapeo de las URLs está definido mediante anotaciones como @RequestMapping y @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, que especifican las operaciones HTTP correspondientes.
-
-La clase mantiene un mapa (Map) llamado users, utilizando ConcurrentHashMap, para almacenar instancias de la clase User, que representa a los usuarios del sistema. También usa un AtomicLong llamado nextId para generar identificadores únicos para cada usuario. Los métodos definidos en este controlador manejan diferentes operaciones sobre usuarios. Por ejemplo, el método usuarios() responde a las solicitudes GET para obtener todos los usuarios registrados. usuario() responde a las solicitudes POST para crear un nuevo usuario, verificando primero si el usuario ya existe. Los métodos actulizaUser() y eliminarUser() gestionan las actualizaciones y eliminaciones de usuarios, respectivamente, utilizando las anotaciones @PutMapping y @DeleteMapping. Además, la clase implementa métodos guardarUsuarios() y cargarUsuarios() anotados con @PreDestroy y @PostConstruct respectivamente, que se encargan de guardar y cargar los usuarios en un archivo "users.txt" en el sistema de archivos. Sin embargo, la implementación de cargar usuarios está actualmente comentada.
-
-4. **CaidaCelestialClienteServidorApplication**
-
-La anotación @SpringBootApplication marca esta clase como la clase de inicio de la aplicación Spring Boot. La clase CaidaCelestialClienteServidorApplication contiene un método main que sirve como punto de entrada para la ejecución de la aplicación. Cuando se inicia la aplicación, el método main se encarga de invocar SpringApplication.run() pasando como argumentos la clase principal (CaidaCelestialClienteServidorApplication.class) y los argumentos de la línea de comandos (args). La anotación @SpringBootApplication es una combinación de varias anotaciones de Spring que simplifican la configuración de la aplicación. Esta anotación incluye @Configuration, indicando que la clase contiene configuraciones de Spring, @EnableAutoConfiguration, permitiendo que Spring configure automáticamente el entorno de la aplicación, y @ComponentScan, habilitando la detección automática de componentes, configuraciones y servicios dentro del paquete de la clase principal y sus subpaquetes.
-
-5. **Puntuaciones/Temporizador**
-
-Se ha implementado un temporizador de 5 minutos de cuenta atrás el cual al llegar a 0 directamente lleva al final malo y al menú principal. Esto esta creado con Date que posteriormente se pasa a string. Este valor se llama cuando ya ha conseguido llegar a los finales. Debido a que javascript no permite que el cliente envie este se guarda en local con el método localStorage.setItem() y posteriormente en el index.html se hace el post para tenerlo para la comunicación cliente/servidor. Esto se guarda en un txt llamado puntuación que guarda al nombre del usuario con su puntuación.
-
-
-# Paso de mensajes
-
-Para que se pueda jugar distintos usuarios y que no sea localmente, se ha implementado un paso de mensajes con Node Js. En el cual se estará haciendo peticiones a un WebSocket handler. Por lo que permite una comunicación bidireccional en tiempo real entre el cliente y el servidor. Esto es esencial para los juegos de plataformas, donde las acciones de los jugadores y los eventos del juego deben reflejarse inmediatamente en la pantalla. Además de una baja latencia, siendo ligero y eficiente. Una vez establecida la conexión, los mensajes se envían rápidamente sin la sobrecarga de establecer una nueva conexión HTTP para cada interacción. Esto reduce la latencia, un factor crítico en los juegos en línea donde los retrasos pueden afectar negativamente la experiencia del usuario.
-A diferencia de las solicitudes HTTP tradicionales (que son stateless y requieren una nueva conexión para cada intercambio de datos), WebSockets mantienen una conexión persistente entre el cliente y el servidor. Esto permite una transferencia de datos más rápida y continua, ideal para la sincronización de estados en un juego en tiempo real. Con WebSockets, tanto el servidor como el cliente pueden enviar y recibir datos en cualquier momento. Esto es crucial para el juego interactivo, ya que permite que el servidor envíe actualizaciones de estado a los clientes (como movimientos de otros jugadores, cambios en el entorno, etc.) y que los clientes envíen comandos al servidor (como movimientos y acciones del jugador) sin necesidad de esperar una solicitud. Dado que los WebSockets mantienen una conexión abierta, no es necesario abrir y cerrar conexiones repetidamente, lo cual consume más recursos y tiempo. Esto resulta en una mayor eficiencia y menor carga en el servidor, lo que puede ser especialmente importante en juegos con muchos jugadores.
-
-Se ha decidido que el backend del juego sea implementado con Node.js, debido a su arquitectura basada en eventos y su capacidad para manejar un gran número de conexiones concurrentes de manera eficiente. La combinación de Node.js y WebSockets proporciona un juego robusto y escalable para desarrollar y mantener el juego en tiempo real.
-
-**¿Qué es Node.js?**
-
-Node.js es una plataforma de código abierto y multiplataforma que se utiliza para crear aplicaciones del lado del servidor. Está construido sobre el motor de JavaScript V8 de Google Chrome, lo que le permite ejecutar código JavaScript muy rápido.
-*Características Clave de Node.js*
-
-1. *Asíncrono y Basado en Eventos*
-Node.js utiliza un modelo de E/S sin bloqueo y basado en eventos. Esto significa que las operaciones de entrada/salida (como leer archivos de disco o hacer solicitudes de red) no bloquean la ejecución del programa, lo que permite manejar muchas conexiones concurrentes con alta eficiencia.
-3. *Motor V8 de Google*
-El motor V8 compila JavaScript a código de máquina nativo, proporcionando una ejecución rápida y eficiente del código.
-4. *Sistema de Paquetes NPM*
-Node.js incluye NPM (Node Package Manager), el cual es un ecosistema vasto y rico de bibliotecas y herramientas de terceros que facilitan el desarrollo de aplicaciones. Con NPM, los desarrolladores pueden compartir y reutilizar código fácilmente.
-5. *Aplicaciones en Tiempo Real*
-Node.js es ideal para aplicaciones en tiempo real, como chat en línea, juegos en línea y aplicaciones colaborativas, debido a su capacidad para manejar muchas conexiones simultáneas de manera eficiente.
-6. *Escalabilidad*
-Node.js es muy escalable debido a su naturaleza no bloqueante y la capacidad de manejar múltiples conexiones concurrentes con eficiencia. Se pueden crear aplicaciones que escalen horizontalmente añadiendo más instancias de servidor.
-
-Es por todo esto que se ha decidido usar Node.js para la implementación de WebSockets.
-
-**Implementación Node.js**
-
-Primero se ha creado una clase que se encarga de manejar las comunicaciones WebSocket en el juego, denominada WebSocketCCHandler.La clase WebSocketCCHandler extiende TextWebSocketHandler y se encarga de manejar las comunicaciones WebSocket en un juego de plataforma. Se implementa para gestionar múltiples estados y acciones de los jugadores.
-
-*Atributos*
-
-Banderas de estado: Para controlar el estado de los jugadores, pausas y finales del juego.
-  - boolean primero, segundo, pausa1, pausa2, p1ready, p2ready, seraphineFinal, cassidieFinal, finalBueno, finalMalo
-Controles Seraphina y Cassadie: Controlan las acciones de los jugadores.
-  - boolean up1, left1, right1, up2, left2, right2
-  - boolean a1, d1, w1, a2, d2, w2
-  - boolean salto1, salto2, sprint1, sprint2, h1, h2
-
-*Metodos*
-
-handleTextMessage(WebSocketSession session, TextMessage message):
-  Lee y parsea los mensajes JSON recibidos.
-  Utiliza un switch para manejar diferentes tipos de peticiones:
-    - Emparejamiento (emparejar): Asigna roles a los jugadores.
-    - Control de Pausas (parar, pausa, continuar): Gestiona el estado de pausa.
-    - Control de Juegos (play, playerReady, checkPlayersReady, reiniciarPersonajes): Verifica el estado de preparación de los jugadores y reinicia personajes.
-    - Finales (playerPuertas, getFinal, comprobarExisteFinal, finalBueno, finalMalo, tipoFinal): Gestiona el estado de los finales del juego.
-    - Controles de Movimiento (pulsarJugadorLeft, soltarJugadorLeft, pulsarJugadorRight, soltarJugadorRight, pulsarJugadorUp, soltarJugadorUp, pulsarJugadorA, soltarJugadorA, pulsarJugadorD, soltarJugadorD,                 pulsarJugadorW, soltarJugadorW, pulsarJugadorSalto, soltarJugadorSalto, pulsarJugadorSprint, soltarJugadorSprint, pulsarJugadorH, soltarJugadorH): Gestiona los movimientos de los personajes de acuerdo a las         acciones de los jugadores.
-
-Una vez ya se ha creado pel WebSocketCCHandler para la gestión de comunicaciones en tiempo real entre jugadores y el servidor, se implementa las llamadas y los valores text que puede recibir del WebSocketccHandler en el index.html. De forma que si necesita hacer alguna petición de mensajes, este se crea una variable que indique el nombre de la petición del WebSocket y la envie através de herramientas que proporciona el Node.js. Además en el index, se tiene un método especial que es para recibir los diversos mensajes que puede enviar el websocket, de forma que por cada case hace algo distinto.
-
-## Diagrama UML
-A continuación se muestra un diagrama de clases que contiene toda la información previa del proyecto, así como las nuevas clases que han sido necesarias incluir para implementar las características de comunicación asíncrona.
-![](CONCEPTS/FINALES/UML1.jpg)
-![](CONCEPTS/FINALES/UML2.jpg)
-
-## Instrucciones
-
-Los pasos para jugar son los siguientes:
-
-- Compilación y Ejecución:
-Compilar el Proyecto:
-
-Para compilar un proyecto Java con Spring Boot, primero, necesitas tener Maven o Gradle instalado. Ambas son herramientas de construcción de proyectos que administran dependencias y automatizan la construcción del proyecto. Maven es más comúnmente utilizado con Spring Boot.
-
-Si estás utilizando Maven, ejecuta mvn clean package en la terminal dentro del directorio del proyecto. Esto compilará el código, ejecutará las pruebas y generará un archivo JAR en la carpeta /target.
-
-- Ejecutar el JAR:
-
-Una vez que se haya generado el archivo JAR, puedes ejecutarlo con el comando java -jar nombre_del_archivo.jar en la terminal. Asegúrate de tener instalado Java en tu máquina.
-Requisitos en la Máquina:
-Java: Necesitarás tener instalado Java en tu máquina para ejecutar aplicaciones Java. Puedes descargar Java JDK desde el sitio web oficial de Oracle o utilizar OpenJDK.
-
-Herramientas de Construcción: Si estás utilizando Maven o Gradle, asegúrate de tener la versión adecuada instalada en tu máquina.
-
-- URL para Jugar:
-Una vez que la aplicación se esté ejecutando, si está configurada para escuchar en un puerto específico (por ejemplo, el puerto 8080), puedes acceder a ella a través de tu navegador web escribiendo http://localhost:8080 en la barra de direcciones. Esta URL puede variar dependiendo de cómo esté configurada la aplicación y en qué puerto esté escuchando.
-
-- Puedes iniciar sesión para jugar o no:
-Al iniciar sesión nos permite guardar tu ranking con el tiempo y obtenerlo en una tabla de puntuaciones.
-
-- Escoger personaje:
-El personaje seleccionado será en función del orden de llegada en el emparejamiento, el primero sera Cassidie y el segundo Seraphina.
-
-- Al cargar sale una pantalla con instrucciones de como moverse/interactuar de cada personaje:
-Cada personaje se mueve únicamente para poder hacer la distinción más clara. En cuanto a los finales, solo uno de los usuarios podra elegirlo.
-Una vez acabada la partida se puede rejugar.
-
-- En resumen, para jugar:
-
-Compila el proyecto con Maven.
-Ejecuta el archivo JAR generado.
-Accede a la aplicación a través del navegador web con la URL proporcionada por la aplicación o usando http://localhost:puerto si no se ha configurado otro 
-Puede iniciar sesión o no para jugar.
-El personaje es elegido automaticamente.
-El personaje que primero llegue al final gana.
-Se puede pausar el juego en cualquier momento.
-Una vez acabe el juego se puede volver a jugar, se mantendran los personajes.
-
-## Mejoras realizadas
-
-Las mejoras realizadas se han implementado dentro del juego base, ya que es el juego que va a ser publicado, excepto el temporizador que ha sido implementado dentro de todas las fases, aunque con ligeros cambios para realizar la implementación de las puntuaciones.
-- Se ha añadido dentro del tutorial una imagen indicativa para enseñar al jugador como pasar los diálogos, además de añadir dentro de la introducción un nuevo fondo donde se muestra como pasar a la siguiente pantalla.
-- Además, también se ha hecho una mejora dentro del menú de inicio pudiendo acceder a los créditos dentro de este.
-- Por otro lado, dentro del menú de ajustes, cuando se está dentro de la partida se permite volver la menú de inicio.
-- Por último se ha añadido una cuenta atrás de 5 minutos, si la cuenta atrás llega a su fin y aún no se ha finalizado el juego este lleva automaticamente a los jugadores al final malo, en cambio si logran finalizar el juego entonces, dentro de las fases 3 y 4 se usa el tiempo que se ha utilizado para las puntuaciones, se puede mencionar que las puntuaciones no están implementadas dentro del juego base debido a que van según el jugador que haya inciado sesión.
-
-## Diagrama de clases actualizado
-
-![](CONCEPTS/FINALES/UMLact.png)
-
-Además, se debe tener en cuenta que la rejugabilidad del juego no está completamente apoyada y manejada por lo tanto, es posible que ocurran errores al tratar de rejugar el juego siendo el más notorio que el contador no se reinicia una vez ya se ha ganado el juego.
