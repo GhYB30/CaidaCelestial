@@ -333,6 +333,7 @@ Cassadie se desplazará por el escenario mediante las teclas “W” (para el mo
 Seraphina tendrá su movimiento por el mundo controlado por las “flechas de dirección” del teclado o “cursores” (menos la que señala hacia abajo ya que no se pueden agachar), cada una de estas desplazará al personaje en la dirección que señalan. Al pulsar la tecla “enter” tras haber realizado un primer salto con “W”, se activará su salto prolongado de mayor altura tan solo una vez hasta que vuelva a tocar el suelo y realizar un primer salto.
 
 La tecla “P” sirve para pausar la escena y abrir el menú de ajustes, mientras que la tecla “H” se emplea en el nivel subterráneo para liberar al compañero si este se encuentra atrapado por tentáculos.
+Por otro lado, ciertas pantallas de texto o diálogos se pasan al pulsar enter, es decir, una vez el jugador haya terminado de leer el texto deberá pulsar enter para continuar.
 
 ![](CONCEPTS/FINALES/Controles.PNG)
 
@@ -407,6 +408,8 @@ Tanto los diferentes paisajes y territorios que los personajes recorren y explor
 
 *Img. Sprite botones*
 
+Por otro lado, se ha implementado una mecánica de temporizador, que consiste en que el jugador cuenta con 5 minutos para poder completar el juego. Si no es completado en ese tiempo entonces el juego enviará al jugador direcatmente al final malo.
+
 ## ***4 Interfaz*** 
 
 El juego contendrá una serie de “menús” los cuales le permitirán al jugador empezar el juego, salir y ciertos aspectos de configuración del juego, para que pueda ajustarlos a su gusto. El aspecto estético será diseñado en Canva debido a que tienen muchas funcionalidades específicas para crear una interfaz como herramientas de selección, color, formato etc. Además, todos los sprites implementados como título, spritesheets, fondos serán dibujados por el equipo con la herramienta Procreate.
@@ -418,7 +421,7 @@ A continuación, se explicará en qué consiste el diagrama de flujo de las inte
 ![](CONCEPTS/DiagramaDeInterfaces.png)
 *Img. Diagrama de flujo de las interfaces*
 
-Dentro de la pantalla inicial se selecciona la opción de Jugar se llevará al jugadora otro menú con tres botones: Jugar, Ajustes y Salir. Si se ha pulsado salir la página se cierra, si se ha pulsado ajustes aparecerá una barra para ajustar el volumen, por último, si se ha pulsado Jugar se puede seleccionar entre el juego o el tutorial. En jugar presenta dos botones debido a que así si los jugadores ya han jugado anteriormente/y o saben las mecánicas pues que no tengan que ver de nuevo la presentación larga explicativa e ir directamente a la pantalla de juego. 
+Dentro de la pantalla inicial se selecciona la opción de Jugar, se llevará al jugador otro menú con cuatro botones: Jugar, Ajustes, Créditos y Salir. Si se ha pulsado salir la página se cierra, si se ha pulsado ajustes aparecerá una barra para ajustar el volumen, por último, si se ha pulsado Jugar se puede seleccionar entre el juego o el tutorial. En jugar presenta dos botones debido a que así si los jugadores ya han jugado anteriormente/y o saben las mecánicas pues que no tengan que ver de nuevo la presentación larga explicativa e ir directamente a la pantalla de juego. 
 
 Si se ha pulsado el botón de tutorial esto llevará a una secuencia explicativa de cómo moverse, manejarse e interactuar con el entorno, una vez acaba dicha explicación llevará a la pantalla de juego en la cual consta de una pequeña historia y al pulsar 'enter' se pasará a los tres niveles.  Los niveles son tres, el primero es el subterráneo/suelo el cual presenta unos tentáculos enemigos que si las dos se quedan atascadas entonces se reinicia el nivel. Una vez acabado el nivel del subsuelo, se pasa al del bosque y luego al del cielo. En cualquier momento pulsando la p se puede ir a la pantalla de ajustes y de ella se puede volver a la escena de juego. Dependiendo de si han llegado las dos o solo una saldrá un final u otro. 
 
@@ -428,13 +431,13 @@ Si se ha pulsado el botón de tutorial esto llevará a una secuencia explicativa
 
 2. ***Menú principal*** 
 
-El menú principal consta del título del juego que ocupe un tamaño razonable para captar la atención del jugador y luego abajo estarán enfiladas céntricas tres botones: Comenzar que se ha cambiado por Jugar, Ajustes y Salir.
+El menú principal consta del título del juego que ocupe un tamaño razonable para captar la atención del jugador y luego abajo estarán enfilados, céntricos, cuatro botones: Jugar, Ajustes, Créditos y Salir.
 
 ![](CONCEPTS/Concept_MenuPrincipal.jpeg)
 
 *Img. Esquema del menú principal*
 
-El menú principal consta del título con un fondo de las puertas las cuales son el objetivo final del juego. En el centro se pueden ver cuatro botones que son Jugar, Ajustes, y Salir. Al pulsar Salir se cierra el ejecutable, el botón de Ajustes lleva a la pantalla de ajustes, Puntuaciones lleva a la pantalla con los records y Jugar a la selección de juego o tutorial.
+El menú principal consta del título con un fondo de las puertas las cuales son el objetivo final del juego. En el centro se pueden ver cuatro botones que son Jugar, Ajustes, Créditos y Salir. Al pulsar Salir se cierra el ejecutable, el botón de Ajustes lleva a la pantalla de ajustes, Créditos que lleva al jugador a la pantalla dónde puede ver los integrantes del equipo y Jugar a la selección de juego o tutorial.
 
 ![](CONCEPTS/FINALES/MenuPrincipal.PNG)
 
@@ -442,7 +445,7 @@ El menú principal consta del título con un fondo de las puertas las cuales son
 
 3. ***Menú de opciones/Pantalla de Pausa*** 
 
-Se puede acceder a través del menú principal o mientras se está jugando, el menú es el mismo para ambas. En este se encuentra el botón de Salir que se vuelve a la pantalla en la que los jugadores estaban antes y en la misma pantalla, para poder ajustar el volumen general del juego mediante un slider. En la versión en red el juego se pausa para ambos jugadores cada vez que uno entre en el menú de opciones.
+Se puede acceder a través del menú principal o mientras se está jugando, el menú es el mismo para ambas. En este se encuentra el botón de Salir que se vuelve a la pantalla en la que los jugadores estaban antes y en la misma pantalla, para poder ajustar el volumen general del juego mediante un slider. Dentro de esta pantalla el jugador puede regresar el menú de inicio o volver a la pantalla de juego.
 
 ![](CONCEPTS/FINALES/MenuAjustes.PNG)
 
@@ -450,7 +453,7 @@ Se puede acceder a través del menú principal o mientras se está jugando, el m
 
 4. ***Pantalla del tutorial & juego*** 
 
-Para que el jugador no tenga que volver a pasar por las distintas explicaciones que se otorgan al principio se han implementado dos botones extras. El cual uno te lleva directamente al juego donde se encuentra los tres niveles solamente con una breve explicación de historia. El otro llevara a una secuencia de explicaciones de mecánicas de cómo usar los personajes, interactuar con el entorno y con el otro jugador para diversas amenazas.
+Para que el jugador no tenga que volver a pasar por las distintas explicaciones que se otorgan al principio se han implementado dos botones extras. El cual uno te lleva directamente al juego donde se encuentra los tres niveles solamente con una breve explicación de historia. El otro llevara a una secuencia de explicaciones de mecánicas, de cómo usar los personajes, interactuar con el entorno y con el otro jugador de forma que se puedan enfrentar conjuntamente a diversas amenazas.
 
 ![](CONCEPTS/FINALES/MenuEleccion.PNG)
 
