@@ -439,7 +439,7 @@ El menú principal consta del título del juego que ocupe un tamaño razonable p
 
 El menú principal consta del título con un fondo de las puertas las cuales son el objetivo final del juego. En el centro se pueden ver cuatro botones que son Jugar, Ajustes, Créditos y Salir. Al pulsar Salir se cierra el ejecutable, el botón de Ajustes lleva a la pantalla de ajustes, Créditos que lleva al jugador a la pantalla dónde puede ver los integrantes del equipo y Jugar a la selección de juego o tutorial.
 
-![](CONCEPTS/FINALES/MenuPrincipal.PNG)
+![](CONCEPTS/FINALES/MenuPrincipal.png)
 
 *Img. Menú principal*
 
@@ -447,7 +447,7 @@ El menú principal consta del título con un fondo de las puertas las cuales son
 
 Se puede acceder a través del menú principal o mientras se está jugando, el menú es el mismo para ambas. En este se encuentra el botón de Salir que se vuelve a la pantalla en la que los jugadores estaban antes y en la misma pantalla, para poder ajustar el volumen general del juego mediante un slider. Dentro de esta pantalla el jugador puede regresar el menú de inicio o volver a la pantalla de juego.
 
-![](CONCEPTS/FINALES/MenuAjustes.PNG)
+![](CONCEPTS/FINALES/MenuAjustes.png)
 
 *Img. Menú de ajustes*
 
